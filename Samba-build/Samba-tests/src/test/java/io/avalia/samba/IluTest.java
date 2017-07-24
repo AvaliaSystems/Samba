@@ -13,7 +13,7 @@ import org.junit.Test;
  * 
  * @author Olivier Liechti
  */
-public class FluteTest {
+public class IluTest {
 
   @Test
   public void anIluShouldMakeBum() {
