@@ -1,18 +1,16 @@
 package io.avalia.samba;
 
-public class Trumpet implements IInstrument {
-
+public class Apito implements IInstrument {
 
   public String play() {
-    return "pouet";
+    return "piiiiiiii";
   }
   
   public String getColor() {
-	return "golden";
+	return "white";
   }
   
   public int getSoundVolume() {
-	return 1000;
+    return 8001;
   }
 }
-
