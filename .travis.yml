@@ -1,0 +1,2 @@
+language: java
+script: sh -c 'cd Samba-build && mvn clean test'
