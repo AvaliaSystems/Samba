@@ -19,7 +19,7 @@ public class CuicaTest {
   public void anCuicaShouldMakeTicutucuNaocutucu() {
     IInstrument cuica = new Cuica();
     String sound = cuica.play();
-    Assert.assertEquals("ticutucu nãocututu ticutucu nãocututu", sound);
+    Assert.assertEquals("ticutucu naocututu ticutucu naocututu", sound);
   }
   
   @Test
@@ -37,7 +37,7 @@ public class CuicaTest {
     int trumpetVolume = trumpet.getSoundVolume();
     int fluteVolume = flute.getSoundVolume();
 	int trumpetAndFluteVolumeCombined = fluteVolume + trumpetVolume;
-	int awesomeSound = cuica.getSoundVolume + (trumpetAndFluteVolumeCombined * 2);
+	int awesomeSound = cuica.getSoundVolume() + (trumpetAndFluteVolumeCombined * 2);
     Assert.assertTrue(awesomeSound > 1000);
   }
  
