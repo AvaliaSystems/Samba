@@ -28,6 +28,7 @@ public class TrumpetTest {
     assertNotNull(sound);
   }
   
+  
   @Test
   public void aTrumpetShouldMakePouet() {
     IInstrument trumpet = new Trumpet();
@@ -43,7 +44,7 @@ public class TrumpetTest {
     int fluteVolume = flute.getSoundVolume();
     Assert.assertTrue(trumpetVolume > fluteVolume);
   }
-
+  
   @Test
   public void aTrumpetShouldBeGolden() {
     IInstrument trumpet = new Trumpet();
