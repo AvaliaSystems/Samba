@@ -33,7 +33,6 @@ public class CuicaTest {
   public void anCuicaShouldBeAwesome() {
     IInstrument trumpet = new Trumpet();
     IInstrument flute = new Flute();
-	IInstrument ilu = new Ilu();
 	IInstrument cuica = new Cuica();
     int trumpetVolume = trumpet.getSoundVolume();
     int fluteVolume = flute.getSoundVolume();
