@@ -9,7 +9,7 @@ public class Trumpet implements IInstrument {
 
 	@Override
 	public int getSoundVolume() {
-		return 5;
+		return 1;
 	}
 
 	@Override
