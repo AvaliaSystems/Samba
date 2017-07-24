@@ -1,20 +1,20 @@
 package io.avalia.samba;
 
-public class Flute implements IInstrument {
+public class Trumpet implements IInstrument {
 
 	@Override
 	public String play() {
-		return null;
+		return "pouet";
 	}
 
 	@Override
 	public int getSoundVolume() {
-		return 3;
+		return 1;
 	}
 
 	@Override
 	public String getColor() {
-		return null;
+		return "golden";
 	}
 
 }

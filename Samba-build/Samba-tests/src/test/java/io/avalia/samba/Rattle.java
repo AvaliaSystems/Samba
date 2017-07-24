@@ -1,20 +1,21 @@
 package io.avalia.samba;
 
-public class Flute implements IInstrument {
+public class Rattle implements IInstrument {
 
 	@Override
 	public String play() {
-		return null;
+		return "chiqchiq";
 	}
 
 	@Override
 	public int getSoundVolume() {
-		return 3;
+		// TODO Auto-generated method stub
+		return 0;
 	}
 
 	@Override
 	public String getColor() {
-		return null;
+		return "brown";
 	}
 
 }
