@@ -7,10 +7,10 @@ public class Flute implements IInstrument {
   }
   
   public String getColor() {
-	return "black";
+	  return "black";
   }
   
   public int getSoundVolume() {
-	return 555;
+	  return 555;
   }
 }

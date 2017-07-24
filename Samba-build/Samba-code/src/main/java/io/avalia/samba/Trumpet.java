@@ -2,6 +2,7 @@ package io.avalia.samba;
 
 public class Trumpet implements IInstrument {
 
+
   public String play() {
     return "pouet";
   }
@@ -14,3 +15,4 @@ public class Trumpet implements IInstrument {
 	return 1000;
   }
 }
+
