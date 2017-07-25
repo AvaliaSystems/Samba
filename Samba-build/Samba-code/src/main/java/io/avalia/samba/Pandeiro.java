@@ -9,7 +9,7 @@ public class Pandeiro implements IInstrument {
 
 	@Override
 	public int getSoundVolume() {
-		return 5;
+		return 6;
 	}
 
 	@Override
