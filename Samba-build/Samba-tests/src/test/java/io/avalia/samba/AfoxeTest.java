@@ -14,14 +14,14 @@ public class AfoxeTest {
 	  }
 	  
 	  @Test
-	  public void itShouldBePossibleToPlayAnInstrument() {
+	  public void itShouldBePossibleToPlayAfoxe() {
 	    IInstrument afoxe = new Afoxe();
 	    String sound = afoxe.play();
 	    assertNotNull(sound);
 	  }
 	  
 	  @Test
-	  public void aAfoxeShouldMakePamPam() {
+	  public void aAfoxeShouldMakeXiqXiq() {
 	    IInstrument afoxe = new Afoxe();
 	    String sound = afoxe.play();
 	    Assert.assertEquals("xiq-xiq", sound);
