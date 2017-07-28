@@ -7,7 +7,7 @@ public class Banjo implements IInstrument {
 	}
 	
 	public int getSoundVolume() {
-		return 0;
+		return 450;
 	}
 	
 	public String getColor() {
