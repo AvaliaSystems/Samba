@@ -25,4 +25,11 @@ public class BanjoTest {
     String sound = banjo.play();
     Assert.assertEquals("dumdum", sound);
   }
+
+  @Test
+  public void shouldHaveAMediumSoundVolume() {
+    IInstrument banjo = new Banjo();
+    int soundVolume = banjo.getSoundVolume();
+    Assert.assertEquals(500, soundVolume);
+  }
 }
