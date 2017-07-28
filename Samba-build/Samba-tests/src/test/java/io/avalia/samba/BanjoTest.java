@@ -32,4 +32,13 @@ public class BanjoTest {
     int soundVolume = banjo.getSoundVolume();
     Assert.assertEquals(500, soundVolume);
   }
+  
+    @Test
+  public void shouldHaveWhiteColor() {
+    IInstrument banjo = new Banjo();
+    String color = banjo.getColor();
+    Assert.assertEquals("white", color);
+  }
+  
+  
 }

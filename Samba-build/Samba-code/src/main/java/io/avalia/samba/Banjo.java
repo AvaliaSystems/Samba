@@ -11,7 +11,7 @@ public class Banjo implements IInstrument {
 	}
 	
 	public String getColor() {
-		return null;
+		return "white";
 	}
 	
 }
